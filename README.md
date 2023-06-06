@@ -1,4 +1,4 @@
-# EXPERIMENT-1 JAVA PROGRAM TO PRINT THE DETAILS OF AN EMPLOYEE.
+# EXPERIMENT-10 JAVA PROGRAM TO PRINT THE DETAILS OF AN EMPLOYEE.
 
 ## AIM:
    To write a java program to print the dtails of an employee.
@@ -14,7 +14,7 @@
 ## PROGRAM:
 
    public class Job<br>
-  {<br>
+   {<br>
     public static void main(String[] args)<br>
     {<br>
         Employee e1=new Employee();<br>
@@ -23,14 +23,12 @@
         e1.ph=54587;<br>
         e1.Address="92, TH road, Chennai";<br>
         e1.salary=60000;<br><br>
-
         Manager e2=new Manager();<br>
         e2.Name="Divya";<br>
         e2.age=26;<br>
         e2.ph=80424;<br>
         e2.Address="58, Kaladipet, Chennai";<br>
-        e2.salary=75000;<br><br>
-
+        e2.salary=75000;<br>
         System.out.println("Name : "+e1.Name);<br>
         System.out.println("Age : "+e1.age);<br>
         System.out.println("Phone Number : "+e1.ph);<br>
@@ -43,8 +41,7 @@
         System.out.println("Address : "+e2.Address);<br>
         e2.printSalary(e2.salary);<br>
     }<br>
-  }<br><br><br>
-  
+   }<br><br>
   public class Member<br>
   {<br>
     String Name;<br>
@@ -52,19 +49,16 @@
     int ph;<br>
     String Address;<br>
     int salary;<br>
-
     public void printSalary(int salary)<br>
     {<br>
         System.out.println("Salary : "+salary);<br>
     }<br>
-  }<br><br><br>
-  
+  }<br><br>
   public class Employee extends Member<br>
   {<br>
     String specialization;<br>
     String department;<br>
   }<br><br>
-  
   public class Manager extends Member<br>
   {<br>
     String specialization;<br>
@@ -72,7 +66,8 @@
   }<br>
   
   ## OUTPUT:
-     <img width="346" alt="java ex10 op" src="https://github.com/divvisha/INSERT-ELEMENT-INTO-ARRAY/assets/127508123/70b91dfd-7bc9-4f6e-b1de-3e20f1a25577">
-  
+    <img width="346" alt="java ex10 op" src="https://github.com/divvisha/INSERT-ELEMENT-INTO-ARRAY/assets/127508123/d3b79a4e-71ac-428d-8064-c2a46704f8a1">
+
+
   ## RESULT:
      Thus the program to create and print the details of an employee has been created and executed successfully.
