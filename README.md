@@ -1,7 +1,7 @@
 # EXPERIMENT-10 JAVA PROGRAM TO PRINT THE DETAILS OF AN EMPLOYEE.
 
 ## AIM:
-   To write a java program to print the dtails of an employee.
+   To write a java program to print the details of an employee.
    
 ## ALGORITHM:
    1. Create a class named 'Member' to get and print the salary of an employee.
@@ -22,7 +22,7 @@
         e1.age=25;<br>
         e1.ph=54587;<br>
         e1.Address="92, TH road, Chennai";<br>
-        e1.salary=60000;<br><br>
+        e1.salary=60000;<br>
         Manager e2=new Manager();<br>
         e2.Name="Divya";<br>
         e2.age=26;<br>
@@ -66,7 +66,7 @@
   }<br>
   
   ## OUTPUT:
-    <img width="346" alt="java ex10 op" src="https://github.com/divvisha/INSERT-ELEMENT-INTO-ARRAY/assets/127508123/d3b79a4e-71ac-428d-8064-c2a46704f8a1">
+<img width="346" alt="java ex10 op" src="https://github.com/divvisha/INSERT-ELEMENT-INTO-ARRAY/assets/127508123/7234d809-59bc-4565-b1d4-77b580da2137">
 
 
   ## RESULT:
