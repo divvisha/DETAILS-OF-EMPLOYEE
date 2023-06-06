@@ -1,5 +1,5 @@
 # EXPERIMENT-10 JAVA PROGRAM TO PRINT THE DETAILS OF AN EMPLOYEE.
-
+ 
 ## AIM:
    To write a java program to print the details of an employee.
    
